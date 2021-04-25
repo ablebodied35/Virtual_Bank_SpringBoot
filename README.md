@@ -15,7 +15,7 @@ Models are basically POJO's(Plain old java objects) that are used to represent d
 
 Methods: Standard getters/setters, parameterized constructor and a toString method.
 
-# Important info about the SessionTicket:
+### Important info about the SessionTicket:
 Each session must first be authorized through a login.  A login will create a SessionTicket object to be stored inside the HttpSession variable. This SessionTicket object will be created inside a function named login within the LoginService class.
 This ticket MUST be checked before any operation inside the AccountOperations class to make sure that the person accessing it is authorized to access the information.  This allows us to avoid repeat accesses to our database to retrieve account numbers and authorize a transaction for an account.
 
