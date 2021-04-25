@@ -36,10 +36,3 @@ public interface AccountsDB extends JpaRepository<Account, Integer>{
 	
 	
 }
-/*spring.datasource.url=jdbc:mysql://localhost:3306/aliens
-spring.datasource.username=root
-spring.datasource.password=1234
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.generate-ddl=true
-spring.jpa.show-sql=true
-http://localhost:8080/h2-console/*/
