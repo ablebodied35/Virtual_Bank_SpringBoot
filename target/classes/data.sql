@@ -1,0 +1,10 @@
+insert into Account values(123123,561.23,'O','checking');
+insert into Account values(234235,2343.32,'C','savings');
+insert into Account values(261860,6523.64,'C','checking');
+insert into Account values(456254,2342.34,'O','savings');
+insert into Account values(827930,6943.62,'O','savings');
+insert into personal_info values(123123,'checking','Brooklyn','Lebron','James','123-13-5231','NY','Apple Avenue','15623');
+insert into personal_info values(234235,'savings','Brooklyn','Kart','Williams','234-45-5235','NY','West Street','15621');
+insert into personal_info values(261860,'checking','Westchester','Gerald','Bore','830-12-7290','NY','Utica Avenue','15233');
+insert into personal_info values(456254,'savings','Albany','Herman','Alk','156-21-5635','NY','Olste Road','13523');
+insert into personal_info values(827930,'savings','Jersey City','Sire','James','133-53-1276','NJ','Alfo Avenue','11053');
