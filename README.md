@@ -1,6 +1,15 @@
 # Virtual Bank RESTful API
 This is a prototype for a virtual, or online, bank's REST API I created as an exercise to cement SpringBoot concepts. I thought of the idea after finishing a project for one of my college courses of the same name. Essentially, this project takes the idea of the college project but transforms it into an API. It performs all standard bank transactions such as balance inquiry, depositing, withdrawing, opening or closing, creating a new Account or deleting an existing one. There are more transactions to be added in the future such as clearing a check, producing transaction history, sending money to other accounts etc. I also aim to add a frontend componenet using Angular or React in the future.
 
+### Technologies Used:
+* Springboot
+* Postman
+* H2 console for mySQL
+
+### Concepts
+* Spring mvc
+* RESTful API
+
 ## Models
 Models are basically POJO's(Plain old java objects) that are used to represent data. The models I used are detailed below. 
 
