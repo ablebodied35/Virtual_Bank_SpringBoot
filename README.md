@@ -81,7 +81,7 @@ findBylastName(int accNum) - finds last name of the account with given int accou
 ## SERVICE layer
 The service layer of a springboot application holds the business logic of the application. 
 
-AccountOperations:
+***AccountOperations:***
 Holds AccountInfoDB and PersonalInfoDB object to be used for data logic.
 
 Methods:
