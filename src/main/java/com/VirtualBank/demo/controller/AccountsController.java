@@ -89,7 +89,7 @@ public class AccountsController {
 					 produces="application/json",
 					 consumes="application/json")
 		@ResponseBody 
-		public String deleteAcc(@RequestBody PersonalInfo info) {
+		public String createAcc(@RequestBody PersonalInfo info) {
 			
 			return accOp.createAcc(info);
 			
