@@ -165,7 +165,6 @@ public class AccountOperations {
 		}
 		newAcc = new Account(accNum,0,"O",info.getAccType());
 		accRepo.save(newAcc);
-		System.out.println(info.getSSN());
 		persInfoRepo.save(info);
 		return newAcc.toString();
 	
