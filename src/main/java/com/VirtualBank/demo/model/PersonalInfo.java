@@ -16,7 +16,7 @@ public class PersonalInfo {
 	private String city;
 	private String firstName;
 	private String lastName;
-	private String socialSecurity;
+	private int socialSecurity;
 	private String state;
 	private String streetName;
 	private String zipcode;
@@ -59,11 +59,12 @@ public class PersonalInfo {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getSSN() {
+	public int getSocialSecurity() {
 		return socialSecurity;
 	}
-	public void setSSN(String sSN) {
-		socialSecurity = sSN;
+
+	public void setSocialSecurity(int socialSecurity) {
+		this.socialSecurity = socialSecurity;
 	}
 	public String getStreetName() {
 		return streetName;
